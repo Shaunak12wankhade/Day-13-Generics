@@ -23,6 +23,16 @@ namespace Day13Generics
 
             int[] intArray = { 11, 3442, 4032, 55, 68 };
             GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
+
+            double[] doubleArray = { 1.2, 340.4, 44.36, 51.55, 67.78 };
+            GenericMaximum<double> genericDouble = new GenericMaximum<double>(doubleArray);
+            genericDouble.PrintMaxValue();
+
+            string[] stringArray = { "apple", "mango", "grapes", "banana", "pineapple" };
+            GenericMaximum<string> genericString = new GenericMaximum<string>(stringArray);
+            genericString.PrintMaxValue();
+
+            Console.ReadKey();
         }
     }
 }
