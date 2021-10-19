@@ -10,7 +10,9 @@ namespace Day13Generics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Generics");
+            //Console.WriteLine("Welcome to Generics");
+            int output = MaximumNumberCheck.MaximumIntegerNumber(11, 22, 33);
+            Console.WriteLine(output);
         }
     }
 }
