@@ -18,8 +18,11 @@ namespace Day13Generics
             //double doubleoutput = MaximumNumberCheck.MaximumFloatNumber(11.1, 22.2, 33.3);
             //Console.WriteLine(doubleoutput);
 
-            string stringoutput = MaximumNumberCheck.MaximumStringNumber("apple", "mango", "grapes");
-            Console.WriteLine(stringoutput);
+            //string stringoutput = MaximumNumberCheck.MaximumStringNumber("apple", "mango", "grapes");
+            //Console.WriteLine(stringoutput);
+
+            int[] intArray = { 11, 3442, 4032, 55, 68 };
+            GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
         }
     }
 }
